@@ -143,7 +143,7 @@ void TerminalMonitor::_CPUModule()
 
 void TerminalMonitor::_printCpuBars(WINDOW* win, int y, int x, float usage) {
 	mvwprintw(win, y, x, "[");
-	int numOfBars = usage * 0.45;
+	int numOfBars = usage * 0.35;
 	wattron(win, COLOR_PAIR(1));
 	for (int i = 0; i < numOfBars; i++) {
 		mvwprintw(win, y, x + 1 + i, "|");
