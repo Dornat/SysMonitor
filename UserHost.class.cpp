@@ -12,7 +12,7 @@ UserHost::~UserHost()
 
 UserHost::UserHost(const UserHost &other)
 {
-	*this = copy;
+	*this = other;
 }
 
 UserHost &UserHost::operator = (const UserHost &other)
@@ -22,12 +22,12 @@ UserHost &UserHost::operator = (const UserHost &other)
 	return *this;
 }
 
-std::string UserHost::getUserName()
+std::string UserHost::getUserName() const
 {
 	return this->_UserName;
 }
 
-std::string UserHost::getHostName()
+std::string UserHost::getHostName() const
 {
 	return this->_HostName;
 }

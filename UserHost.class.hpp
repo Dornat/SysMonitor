@@ -10,8 +10,8 @@ class UserHost : public IMonitorModule
         ~UserHost();
         UserHost(const UserHost &other);
         UserHost &operator = (const UserHost &other);
-        std::string getUserName();
-        std::string getHostName();
+        std::string getUserName() const;
+        std::string getHostName() const;
 		void update();
     private:
 		std::string _UserName;
