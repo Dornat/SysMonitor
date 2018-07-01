@@ -1,5 +1,10 @@
 #include "TerminalMonitor.class.hpp"
 
+TerminalMonitor::TerminalMonitor(void)
+{
+	return;
+}
+
 TerminalMonitor::TerminalMonitor(DateTime &dateTime, UserHost &userHost, OSInfo &OSinfo, CPU &cpu, RAM &ram, Network network)
 {
 	this->_dateTime = dateTime;
@@ -12,7 +17,7 @@ TerminalMonitor::TerminalMonitor(DateTime &dateTime, UserHost &userHost, OSInfo 
 
 TerminalMonitor::~TerminalMonitor()
 {
-
+	return;
 }
 
 TerminalMonitor::TerminalMonitor(const TerminalMonitor &other)

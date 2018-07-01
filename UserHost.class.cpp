@@ -7,17 +7,18 @@ UserHost::UserHost()
 
 UserHost::~UserHost()
 {
-
+	return;
 }
 
 UserHost::UserHost(const UserHost &other)
 {
-    (void)other;
+	*this = copy;
 }
 
 UserHost &UserHost::operator = (const UserHost &other)
 {
-	(void)other;
+	this->_UserName = other.getUserName();
+	this->_HostName = other.getHostName();
 	return *this;
 }
 

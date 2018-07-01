@@ -13,6 +13,7 @@
 class TerminalMonitor : public IMonitorDisplay
 {
 	public:
+		TerminalMonitor(void);
 		TerminalMonitor(DateTime &dateTime, UserHost &userHost, OSInfo &OSinfo, CPU &cpu, RAM &ram, Network network);
 		~TerminalMonitor();
 		TerminalMonitor(const TerminalMonitor &other);
