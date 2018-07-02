@@ -10,7 +10,7 @@ Teams are chosen randomly.
 
 ![Cat](resources/sys_monitor.gif)
 
-## Whant to try it out?
+## Want to try it out?
 
 Probably you can't, because we used some Mac OS specific stuff, but you can try.
 
