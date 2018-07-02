@@ -31,3 +31,4 @@ Date/time			|Done
 CPU					|Done
 RAM					|Done
 Network throughput	|Done
+The Cat	=^.\_.^= ∫	|Done
